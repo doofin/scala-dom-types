@@ -42,4 +42,9 @@ trait MiscellaneousEventProps[EP[_ <: DomEvent], DomEvent, DomUIEvent <: DomEven
     * Fires when the user opens or closes the <details> element
     */
   lazy val onToggle: EP[DomEvent] = eventProp("toggle")
+    /**
+    * Fires when the user opens or closes the <details> element
+    */
+  val onEvent: String=>EP[DomEvent] = x=>eventProp(x)
+
 }
