@@ -2,6 +2,8 @@
 [![Build Status](https://travis-ci.org/raquo/scala-dom-types.svg?branch=master)](https://travis-ci.org/raquo/scala-dom-types)
 ![Maven Central](https://img.shields.io/maven-central/v/com.raquo/domtypes_sjs0.6_2.12.svg)
 
+js/src/main/scala/com/raquo/domtypes/jsdom/defs/package.scala
+
 _Scala DOM Types_ provides listings and type definitions for Javascript HTML and SVG tags as well as their attributes, DOM properties, and CSS styles.
 
     "com.raquo" %%% "domtypes" % "0.7.1"    // scala.js
